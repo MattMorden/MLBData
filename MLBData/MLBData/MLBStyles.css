@@ -1,0 +1,97 @@
+﻿body {
+    background-color:gray;
+}
+
+#inputform{
+    width:33%;
+    height:30%;
+}
+
+#buttonarea{
+    float:left;
+    width:100%;
+}
+
+#dayarea, #montharea, #yeararea{
+    float:left;
+    width:100%;
+    font-size:30px;
+   
+}
+
+form {
+  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  margin: auto;
+  position: relative;
+  width: 550px;
+  height: 470px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 24px;
+  font-weight: bold;
+  color: #09C;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  display:block;
+}
+
+input {
+  width: 375px;
+  margin-top:4%;
+  margin-bottom:2%;
+  font-size:55px;
+  display: block;
+  border: 1px solid #999;
+  height: 55px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+#yearbox, #monthbox, #daybox{
+    width:50%;
+    height:20%;
+    font-size:50px;
+}
+
+td{
+    background-color:cadetblue;
+    border:2px solid;
+}
+
+
+#myButton{
+    position:absolute;
+    margin-left:14%;
+    right:20px;
+    left:20px;
+    border-radius:30px;
+    border:1px solid #999;
+    float:left;
+    background-color: #4CAF50;
+    border:none;
+    color:white;
+    padding: 15px 32px;
+    text-align:center;
+    text-decoration:none;
+    font-size:30px;
+}
+
+label{
+    float:left;
+    width:50%;
+}
+
+#table{
+    width:100%;
+    color: #000000;
+}
